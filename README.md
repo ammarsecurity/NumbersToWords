@@ -1,8 +1,13 @@
-#NumbersToWords
+# NumbersToWords
+
+[![NuGet Version](https://img.shields.io/nuget/v/ZainCashPayment.svg)](https://www.nuget.org/packages/Payment_ZainCash/1.0.0)
+[![NuGet Downloads](https://img.shields.io/nuget/dt/ZainCashPayment.svg)](https://www.nuget.org/packages/Payment_ZainCash/1.0.0)
+
 This is a simple C# class that converts numbers to words in different languages. Currently, it supports English, French, and Arabic.
 
-##Usage
-Instantiate an instance of the NumbersToWords class, and then call its Convert method with the number to convert and the language code as parameters. The method will return a string that represents the number in words.
+## Usage
+Instantiate an instance of the NumbersToWords class, and then call its Convert method with the number to convert and the language code as parameters. The method will 
+return a string that represents the number in words.
 
 ```powershell
 NumbersToWords nt = new NumbersToWords();
@@ -11,8 +16,9 @@ string arWords = nt.Convert(123456, "ar");  // مائة وثلاثة وعشرو�
 string frWords = nt.Convert(123456, "fr");  // cent vingt-trois mille quatre cent cinquante-six
 
 
-##Supported Languages
-###The following languages are currently supported:
+## Supported Languages
+
+### The following languages are currently supported:
 ```powershell
 English ("en")
 French ("fr")
