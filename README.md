@@ -10,19 +10,20 @@ Instantiate an instance of the NumbersToWords class, and then call its Convert m
 return a string that represents the number in words.
 
 
+```csharp
 NumbersToWords nt = new NumbersToWords();
 string enWords = nt.Convert(123456, "en");  // one hundred and twenty-three thousand four hundred and fifty-six
 string arWords = nt.Convert(123456, "ar");  // مائة وثلاثة وعشرون ألفًا وأربعمائة وستة وخمسون
 string frWords = nt.Convert(123456, "fr");  // cent vingt-trois mille quatre cent cinquante-six
-
+```
 
 ## Supported Languages
 
 ## The following languages are currently supported:
 
-1 - English ("en")
-2 - French ("fr")
-3 - Arabic ("ar")
+1. English ("en")
+2. French ("fr")
+3. Arabic ("ar")
 
 ## Contributing
 If you find any issues or have suggestions for improvement, please feel free to open an issue or submit a pull request.
