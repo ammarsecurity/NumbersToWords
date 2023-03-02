@@ -10,9 +10,9 @@ namespace NumbersToWords
     ///  linkedin : https://www.linkedin.com/in/ammar-alasafer-b2933415a/
     /// </summary>
  
-    public class NumbersToWords
-        
-{
+    public class NTWConverter
+
+    {
         public string Convert(int number, string lang)
 
         {

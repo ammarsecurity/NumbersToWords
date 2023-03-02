@@ -4,6 +4,30 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>NTWConverter</Title>
+    <Authors>Ammar Rashad Jabbar</Authors>
+    <Company>Tatwer</Company>
+    <Description>Convert Numbers to Words</Description>
+    <PackageProjectUrl>https://github.com/ammarsecurity</PackageProjectUrl>
+    <PackageIcon>Untitled-1-Recovered.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/ammarsecurity/NumbersToWords/</RepositoryUrl>
+    <PackAsTool>False</PackAsTool>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Copyright>Tatwer</Copyright>
+    <PackageId>NTWConverter</PackageId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\Desktop\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\..\..\..\Desktop\Untitled-1-Recovered.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
