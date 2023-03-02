@@ -1,7 +1,7 @@
 # NumbersToWords
 
-[![NuGet Version](https://img.shields.io/nuget/v/ZainCashPayment.svg)](https://www.nuget.org/packages/Payment_ZainCash/1.0.0)
-[![NuGet Downloads](https://img.shields.io/nuget/dt/ZainCashPayment.svg)](https://www.nuget.org/packages/Payment_ZainCash/1.0.0)
+[![NuGet Version](https://img.shields.io/nuget/v/NTWConverter.svg)](https://www.nuget.org/packages/NTWConverter)
+[![NuGet Downloads](https://img.shields.io/nuget/dt/NTWConverter.svg)](https://www.nuget.org/packages/NTWConverter)
 
 This is a simple C# class that converts numbers to words in different languages. Currently, it supports English, French, and Arabic.
 
@@ -11,7 +11,7 @@ return a string that represents the number in words.
 
 
 ```csharp
-NumbersToWords nt = new NumbersToWords();
+NTWConverter nt = new NTWConverter();
 string enWords = nt.Convert(123456, "en");  // one hundred and twenty-three thousand four hundred and fifty-six
 string arWords = nt.Convert(123456, "ar");  // مائة وثلاثة وعشرون ألفًا وأربعمائة وستة وخمسون
 string frWords = nt.Convert(123456, "fr");  // cent vingt-trois mille quatre cent cinquante-six
